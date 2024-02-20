@@ -7,7 +7,7 @@ const input = prompt(
 const flavors = input.split(",");
 
 // Function to count the frequency of each flavor in an array
-function countFroyoFlavors(flavors) {
+function countFlavors(flavors) {
   const flavorCount = {};
   flavors.forEach((flavor) => {
     flavorCount[flavor] = (flavorCount[flavor] || 0) + 1;
@@ -16,7 +16,7 @@ function countFroyoFlavors(flavors) {
 }
 
 // Count the frequency of each flavor
-const flavorCount = countFroyoFlavors(flavors);
+const flavorCount = countFlavors(flavors);
 
 // Display the results in the console
 console.table(flavorCount);

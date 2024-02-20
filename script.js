@@ -14,7 +14,7 @@ const input = prompt(
 const flavors = input.split(",");
 
 // Count the frequency of each flavor
-const flavorFrequency = countFroyoFlavors(flavors);
+const flavorCount = countFroyoFlavors(flavors);
 
 // Display the results in the console
-console.table(flavorFrequency);
+console.table(flavorCount);

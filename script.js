@@ -1,3 +1,11 @@
+// Prompt the user for froyo flavors
+const input = prompt(
+  "Please enter your desired froyo flavors seperated by a comma:"
+);
+
+// Split the user input into an array of flavors
+const flavors = input.split(",");
+
 // Function to count the frequency of each flavor in an array
 function countFroyoFlavors(flavors) {
   const flavorCount = {};
@@ -6,12 +14,6 @@ function countFroyoFlavors(flavors) {
   });
   return flavorCount;
 }
-
-// Prompt the user for froyo flavors
-const input = prompt(
-  "Please enter your desired froyo flavors seperated by a comma:"
-);
-const flavors = input.split(",");
 
 // Count the frequency of each flavor
 const flavorCount = countFroyoFlavors(flavors);

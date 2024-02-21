@@ -18,5 +18,5 @@ function countFlavors(flavors) {
 // Count the frequency of each flavor
 const flavorCount = countFlavors(flavors);
 
-// Display the results in the console
+// Display the results as a table in the console
 console.table(flavorCount);
